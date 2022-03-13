@@ -118,7 +118,7 @@ optional arguments:
 An example call of the script with all the configuration data entered as command line arguments is shown below:
 
 ```
-python main.py --auth path/to/your/credentials.json --gcp_project_id my-test-project-100 --gcp_project_name "My Test Project 100" --android_app_name "My Test App 100" --android_package com.my.android.ap100p --ios_bundle_id com.my.ios.ap100p --ios_app_name "My Test App 100" --app_store_id 123456789 --android_config_path D:/ --ios_config_path D:/
+python main.py --auth path/to/your/credentials.json --gcp_project_id my-test-project-1000 --gcp_project_name "My Test Project 100" --android_app_name "My Test App 100" --android_package com.my.android.ap100p --ios_bundle_id com.my.ios.ap100p --ios_app_name "My Test App 100" --app_store_id 123456789 --android_config_path D:/ --ios_config_path D:/
 ```
 
 ### External configuration file
@@ -134,7 +134,7 @@ Example of a JSON configuration file:
 ```
 {
     "auth":"path/to/your/credentials.json",
-    "gcp_project_id":"my-test-project-100",
+    "gcp_project_id":"my-test-project-1000",
     "gcp_project_name":"My Test Project 100",
     "android_app_name":"My Android App 100",
     "android_package":"com.my.android.ap100p",
